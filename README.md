@@ -16,7 +16,7 @@ The data that were being retrieved included:
 <br/>
 This project is still in development mode and future improvement is needed. It might take some time to load the webpages.
 Thank you.
-<br/><br/>
+<br/>
 Live demo:<a href="https://meikei-technical-test.vercel.app/" target="_blank"> here</a>.
 
 
