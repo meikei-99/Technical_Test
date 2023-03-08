@@ -205,7 +205,9 @@ export default function App() {
                   </h1>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 xl:gap-8">
-                  <h1 className={yellowbutton}>Total Supply: {totalSupply}</h1>
+                  <h1 className={yellowbutton}>
+                    Total Supply: {totalSupply ?? "NaN"}
+                  </h1>
                   <h1 className={yellowbutton}>
                     Floor Price: {Math.ceil(floorPrice * 1000) / 1000} ETH
                   </h1>
