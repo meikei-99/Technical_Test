@@ -61,15 +61,20 @@ export default function Hero() {
                 ASSESSMENT
               </h1>
             </div>
-            <div className="relative ... group -translate-y-2">
+            <a
+              className="relative ... group -translate-y-2"
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/meikei-99/Technical_Test"
+            >
               <h3 className={yellowbutton}>GitHub Repo</h3>
               <h3 className={yellowbuttonTransition}>GitHub Repo</h3>
-            </div>
+            </a>
           </div>
           <div className="flex flex-col font-normal text-sm xs:text-base md:text-lg lg:text-xl xl:text-3xl gap-3">
             <h1>
               Check out the NFTs of an given address on the{" "}
-              <span className="underline underline-offset-8">
+              <span className="underline underline-offset-8 font-bold">
                 Ethereum Blockchain
               </span>
               .
