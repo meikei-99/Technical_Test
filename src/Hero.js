@@ -27,7 +27,7 @@ export default function Hero() {
         }}
       >
         <h1 className="text-black text-base xs:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl font-bold pr-2">
-          meikei.
+          nft.
         </h1>
       </motion.div>
       <motion.div
@@ -49,16 +49,16 @@ export default function Hero() {
         }}
       >
         <h1 className="text-yellow-500 underline underline-offset-8 text-base xs:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl font-bold">
-          assessment
+          eXplore
         </h1>
       </motion.div>
       <div className="grid items-center relative bg-black h-screen p-6 xs:p-8 md:p-20">
         <div className="text-white z-10 flex flex-col gap-4 xs:gap-8">
           <div className="flex flex-col sm:flex-row items-baseline gap-6 lg:gap-10 xl:gap-14">
             <div className="text-5xl xs:text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-11xl relative ...">
-              <h1 className="font-Anton relative ... text-white">ASSESSMENT</h1>
+              <h1 className="font-Anton relative ... text-white">eXplore</h1>
               <h1 className="absolute ... top-0 left-1 xs:left-2 font-Anton text-pink-300">
-                ASSESSMENT
+                eXplore
               </h1>
             </div>
             <a
@@ -73,9 +73,9 @@ export default function Hero() {
           </div>
           <div className="flex flex-col font-normal text-sm xs:text-base md:text-lg lg:text-xl xl:text-3xl gap-3">
             <h1>
-              Check out the NFTs of an given address on the{" "}
+              Search through all NFTs and collections on the{" "}
               <span className="underline underline-offset-8 font-bold">
-                Ethereum Blockchain
+                Ethereum network
               </span>
               .
             </h1>

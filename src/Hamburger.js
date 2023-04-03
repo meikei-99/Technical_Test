@@ -38,7 +38,7 @@ export default function Hamburger() {
             setFullTitle(false);
           }}
         >
-          {fullTitle ? "meikei.assessment" : "m."}
+          {fullTitle ? "eXplore" : "e."}
         </h1>
       </div>
     </div>

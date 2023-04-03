@@ -41,7 +41,7 @@ export default function Sidebar({
           variants={animateLeft}
           className={popularList}
           onClick={() => {
-            setNftAddress("0x23581767a106ae21c074b2276D25e5C3e136a68b");
+            setNftAddress("0xED5AF388653567Af2F388E6224dC7C4b3241C544");
             fetchNft();
             setLoading(true);
             setProfileLoading(true);
@@ -49,13 +49,13 @@ export default function Sidebar({
             setSideBar(false);
           }}
         >
-          Moonbirds
+          Azuki
         </motion.button>
         <motion.button
           variants={animateLeft}
           className={popularList}
           onClick={() => {
-            setNftAddress("0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e");
+            setNftAddress("0x1A92f7381B9F03921564a437210bB9396471050C");
             fetchNft();
             setLoading(true);
             setProfileLoading(true);
@@ -63,7 +63,7 @@ export default function Sidebar({
             setSideBar(false);
           }}
         >
-          Doodles
+          Cool Cats
         </motion.button>
         <motion.button
           variants={animateLeft}
